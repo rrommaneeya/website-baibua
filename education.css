@@ -1,0 +1,166 @@
+html body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 240, 221);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 160, 160);
+    color: aliceblue;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.267)
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.main{
+    max-width: 900px;
+    margin: auto;
+}
+
+.education {
+    margin-top: 70px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.267)
+}
+
+.education a {
+    font-size: 40px;
+    font-weight: 600;
+    background-color:rgb(255, 134, 134);
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 5px 4px 10px  rgba(0, 0, 0, 0.267)
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;  
+    flex-wrap: wrap;
+}
+
+.big {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 20px;
+    margin-right: 40px;
+    color: rgb(208, 61, 61);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    background-color: rgb(255, 160, 160);
+    padding: 20px;
+    width: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    
+}
+
+.contact a{
+    text-decoration: none;
+    background-color: rgb(255, 134, 134);
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.ig img{
+    width: 10%;
+}
+
+.line img{
+    width: 10%;
+}
+
+.face img{
+    width: 10%;
+}
+
+.mail img{
+    width: 10%;
+}
+
+.call img{
+    width: 10%;
+}
+
+.ig a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.line a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.face a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.mail a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.call a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 10px;
+}
