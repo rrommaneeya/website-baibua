@@ -85,6 +85,11 @@ html body {
     color: rgb(208, 61, 61);
 }
 
+.img img {
+    width: 100%;
+    padding: 90px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
