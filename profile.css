@@ -80,19 +80,7 @@ html body {
     flex-wrap: wrap;
 }
 
-.html img {
-    width: 20%;
-    
-}
 
-.css img {
-    width: 10%;
-    
-}
-
-.code {
-    display: flex;
-}
 
 .big {
     font-weight: 600;
